@@ -1,0 +1,433 @@
+# Copyright (C) 2024 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Private Messages plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Private Messages 2.3.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/messaging\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-21T17:34:21+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: um-messaging\n"
+
+#. Plugin Name of the plugin
+#: um-messaging.php
+msgid "Ultimate Member - Private Messages"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: um-messaging.php
+msgid "http://ultimatemember.com/extensions/private-messages"
+msgstr ""
+
+#. Description of the plugin
+#: um-messaging.php
+msgid "Allow users to send private messages to each other on your site."
+msgstr ""
+
+#. Author of the plugin
+#: um-messaging.php
+msgid "Ultimate Member"
+msgstr ""
+
+#. Author URI of the plugin
+#: um-messaging.php
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:44
+msgid "Private Messages"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:64
+#: um-messaging.php:90
+msgid "Private Messaging License Key"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:74
+msgid "Show messages button in member directory"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:79
+msgid "Hide messages button for not logged-in users"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:84
+msgid "Show unread messages first"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:89
+msgid "Hide a \"Download Chats History\" link"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:94
+msgid "Message character limit"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:101
+msgid "Block users from sending/receiving messages"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:102
+msgid "A comma seperated list of user IDs that cannot send/receive messages on the site."
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:108
+msgid "Primary color"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:115
+msgid "How often do you want the AJAX refresh conversation (in seconds)"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:122
+msgid "Send email notifications If user did not login for"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:123
+msgid "Send email notifications about new messages if the user's last login time exceeds that period."
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:125
+msgid "1 Hour"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:126
+msgid "1 Day"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:127
+msgid "1 Week"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:128
+msgid "1 Month"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:130
+msgid "Select..."
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:136
+msgid "Send email notifications If user didn't read message for [n] hours"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:137
+msgid "Send email notifications about unread message if the user didn't read it during that period."
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:138
+msgid "[n] hours"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:145
+msgid "Send email notifications not more then [m] times."
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:146
+msgid "Email notifications about unread message will be send every [n] hours but no more then [m] times."
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:147
+msgid "[m] times"
+msgstr ""
+
+#: includes/admin/core/class-messaging-admin.php:156
+msgid "Private Messaging"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:12
+msgid "Enable Messaging feature?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:13
+msgid "Enable or disable messaging feature for this role"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:19
+msgid "Can start conversations?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:20
+msgid "Can this role start conversation with other users?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:47
+msgid "Can read private messages?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:48
+msgid "Can this role read private messages from other users?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:55
+msgid "Can reply private messages?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:56
+msgid "Turn this off to disable reply ability for this role"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:85
+msgid "per"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:85
+msgid "Days"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:86
+msgid "Maximum number of messages they can send"
+msgstr ""
+
+#: includes/core/class-messaging-account.php:67
+msgid "Notifications"
+msgstr ""
+
+#: includes/core/class-messaging-account.php:68
+msgid "Update Notifications"
+msgstr ""
+
+#: includes/core/class-messaging-gdpr.php:119
+#: includes/core/class-messaging-gdpr.php:147
+msgid "Download History"
+msgstr ""
+
+#: includes/core/class-messaging-gdpr.php:147
+msgid "Download Chats History"
+msgstr ""
+
+#: includes/core/class-messaging-gdpr.php:196
+msgid "Me"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:653
+msgid "This conversation is hidden."
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:713
+#: templates/conversation.php:82
+msgid "Your membership level does not allow you to view conversations."
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:1259
+msgid "%s Please login to message <strong>%s</strong>"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:1305
+msgid "Invalid target user_ID or user is not logged in"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:1309
+msgid "Invalid sender user_ID or user is not logged in"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:1334
+msgid "UM Messaging - No result found"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:1479
+#: templates/conversation.php:25
+#: templates/conversations.php:53
+msgid "Deleted User"
+msgstr ""
+
+#: includes/core/class-messaging-member-directory.php:49
+msgid "Hide message button in directory?"
+msgstr ""
+
+#: includes/core/class-messaging-member-directory.php:90
+msgid "My messages"
+msgstr ""
+
+#: includes/core/class-messaging-profile.php:81
+#: templates/account_notifications.php:18
+msgid "Messages"
+msgstr ""
+
+#: includes/core/class-messaging-setup.php:59
+msgid "<strong>{member}</strong> has just sent you a private message."
+msgstr ""
+
+#: includes/core/class-messaging-shortcode.php:103
+msgid "Message"
+msgstr ""
+
+#: includes/core/filters/um-messaging-encryption.php:88
+#: includes/core/filters/um-messaging-encryption.php:91
+#: includes/core/filters/um-messaging-encryption.php:94
+msgid "Invalid input: "
+msgstr ""
+
+#. translators: %1$s is the offset, %2$s is the current number of messages.
+#: includes/core/filters/um-messaging-encryption.php:150
+msgid "Messages from %1$s to %2$s was updated..."
+msgstr ""
+
+#: includes/core/filters/um-messaging-encryption.php:172
+msgid "Enable encryption"
+msgstr ""
+
+#: includes/core/filters/um-messaging-encryption.php:173
+msgid "Encrypts messages in the database. You may define a constant UM_MESSAGING_KEY to override the default key. The key length must be 256-bit (32 bytes)."
+msgstr ""
+
+#: includes/core/filters/um-messaging-encryption.php:182
+msgid "<strong>Warning:</strong> Do not exit the page until the update process is complete."
+msgstr ""
+
+#: includes/core/filters/um-messaging-encryption.php:182
+msgid "We recommend creating a backup of your site before running the update process."
+msgstr ""
+
+#: includes/core/filters/um-messaging-encryption.php:185
+msgid "After clicking the <strong>\"Run\"</strong> button, the update process will start. All information will be displayed in the field below."
+msgstr ""
+
+#: includes/core/filters/um-messaging-encryption.php:185
+msgid "If the update is successful, you will see a corresponding message. Otherwise, contact technical support if the update failed."
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:39
+msgid "Everyone"
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:40
+msgid "Nobody"
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:44
+#: includes/core/filters/um-messaging-fields.php:47
+msgid "Who can send me private messages?"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:11
+msgid "New Message Notification"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:18
+msgid "Send a notification to user when he receives a new private message"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:24
+msgid "New Message Reminder"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:31
+msgid "Send a notification to user when he has unread private message"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:49
+msgid "User get a new private message"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:50
+msgid "When someone sends a private message to me"
+msgstr ""
+
+#: templates/account_notifications.php:25
+msgid "Someone sends me a private message"
+msgstr ""
+
+#: templates/account_notifications.php:37
+msgid "I have an unread message"
+msgstr ""
+
+#: templates/account_privacy.php:20
+msgid "Blocked Users"
+msgstr ""
+
+#: templates/account_privacy.php:37
+msgid "Unblock"
+msgstr ""
+
+#: templates/conversation.php:42
+msgid "Block user"
+msgstr ""
+
+#: templates/conversation.php:43
+msgid "Are you sure to block this user?"
+msgstr ""
+
+#: templates/conversation.php:49
+msgid "Delete conversation"
+msgstr ""
+
+#: templates/conversation.php:58
+msgid "Close chat"
+msgstr ""
+
+#: templates/conversation.php:108
+msgid "You are blocked and not allowed continue this conversation."
+msgstr ""
+
+#: templates/conversation.php:113
+#: templates/conversation.php:117
+msgid "You have reached your limit for sending messages."
+msgstr ""
+
+#: templates/conversation.php:121
+msgid "You are not allowed to reply to private messages."
+msgstr ""
+
+#: templates/conversation.php:127
+msgid "You are not allowed to reply to private messages with this user."
+msgstr ""
+
+#: templates/conversation.php:131
+msgid "You are not allowed to start conversations."
+msgstr ""
+
+#: templates/conversation.php:137
+msgid "You are not allowed to start conversations with this user."
+msgstr ""
+
+#: templates/conversation.php:144
+msgid "Type your message..."
+msgstr ""
+
+#: templates/conversation.php:152
+msgid "Send message"
+msgstr ""
+
+#: templates/conversations.php:85
+#: assets/js/um-messaging.js:425
+msgid "No chats found here"
+msgstr ""
+
+#: templates/emoji.php:21
+msgid "Add emoji"
+msgstr ""
+
+#: templates/message.php:32
+msgid "Remove"
+msgstr ""
+
+#: um-messaging.php:50
+#: um-messaging.php:66
+msgid "The <strong>%s</strong> extension requires the Ultimate Member plugin to be activated to work properly. You can download it <a href=\"https://wordpress.org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: assets/js/admin/um-messaging.js:40
+msgid "Getting messages..."
+msgstr ""
+
+#: assets/js/admin/um-messaging.js:46
+msgid "There are "
+msgstr ""
+
+#: assets/js/admin/um-messaging.js:46
+msgid " messages..."
+msgstr ""
+
+#: assets/js/admin/um-messaging.js:47
+msgid "Start messages updating..."
+msgstr ""
+
+#: assets/js/admin/um-messaging.js:65
+msgid "Done."
+msgstr ""

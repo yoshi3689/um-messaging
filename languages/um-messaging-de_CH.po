@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Private Messages\n"
+"POT-Creation-Date: 2020-01-08 15:47+0200\n"
+"PO-Revision-Date: 2020-01-24 21:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: um-messaging.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/core/class-messaging-admin.php:35
+msgid "Private Messages"
+msgstr "Private Nachrichten"
+
+#: includes/admin/core/class-messaging-admin.php:57
+msgid "Private Messaging License Key"
+msgstr "Lizenzschlüssel für private Nachrichten"
+
+#: includes/admin/core/class-messaging-admin.php:65
+msgid "Private Messaging"
+msgstr "Privater Nachrichtenversand"
+
+#: includes/admin/core/class-messaging-admin.php:70
+msgid "Show messages button in member directory"
+msgstr "Nachrichten-Taste im Mitgliederverzeichnis anzeigen"
+
+#: includes/admin/core/class-messaging-admin.php:75
+msgid "Show unread messages first"
+msgstr "Ungelesene Nachrichten zuerst anzeigen"
+
+#: includes/admin/core/class-messaging-admin.php:80
+msgid "Message character limit"
+msgstr "Begrenzung des Nachrichtenzeichens"
+
+#: includes/admin/core/class-messaging-admin.php:87
+msgid "Block users from sending/receiving messages"
+msgstr "Benutzer am Senden/Empfangen von Nachrichten hindern"
+
+#: includes/admin/core/class-messaging-admin.php:88
+msgid ""
+"A comma seperated list of user IDs that cannot send/receive messages on the "
+"site."
+msgstr ""
+"Eine kommagetrennte Liste von Benutzer-IDs, die keine Nachrichten auf der "
+"Website senden/empfangen können."
+
+#: includes/admin/core/class-messaging-admin.php:94
+msgid "Primary color"
+msgstr "Grundfarbe"
+
+#: includes/admin/core/class-messaging-admin.php:101
+msgid "How often do you want the AJAX refresh conversation (in seconds)"
+msgstr "Wie oft möchten Sie das AJAX das Gespräch aktualisiert (in Sekunden)?"
+
+#: includes/admin/core/class-messaging-admin.php:108
+msgid "Send email notifications If user did not login for"
+msgstr ""
+"E-Mail-Benachrichtigungen senden Wenn der Benutzer sich nicht angemeldet hat "
+"für"
+
+#: includes/admin/core/class-messaging-admin.php:109
+msgid ""
+"Send email notifications about new messages if the user's last login time "
+"exceeds that period."
+msgstr ""
+"Senden Sie E-Mail-Benachrichtigungen über neue Nachrichten, wenn die letzte "
+"Anmeldezeit des Benutzers diesen Zeitraum überschreitet."
+
+#: includes/admin/core/class-messaging-admin.php:111
+msgid "1 Hour"
+msgstr "1 Stunde"
+
+#: includes/admin/core/class-messaging-admin.php:112
+msgid "1 Day"
+msgstr "1 Tag"
+
+#: includes/admin/core/class-messaging-admin.php:113
+msgid "1 Week"
+msgstr "1 Woche"
+
+#: includes/admin/core/class-messaging-admin.php:114
+msgid "1 Month"
+msgstr "1 Monat"
+
+#: includes/admin/core/class-messaging-admin.php:116
+msgid "Select..."
+msgstr "Auswählen....."
+
+#: includes/admin/core/class-messaging-admin.php:122
+msgid "Send email notifications If user didn't read message for [n] hours"
+msgstr ""
+"E-Mail-Benachrichtigungen senden wenn der Benutzer die Nachricht für [n] "
+"Stunden nicht gelesen hat"
+
+#: includes/admin/core/class-messaging-admin.php:123
+msgid ""
+"Send email notifications about unread message if the user didn't read it "
+"during that period."
+msgstr ""
+"Senden Sie E-Mail-Benachrichtigungen über ungelesene Nachrichten, wenn der "
+"Benutzer sie in diesem Zeitraum nicht gelesen hat."
+
+#: includes/admin/core/class-messaging-admin.php:124
+msgid "[n] hours"
+msgstr "[n] Stunden"
+
+#: includes/admin/core/class-messaging-admin.php:131
+msgid "Send email notifications not more then [m] times."
+msgstr "Senden Sie E-Mail-Benachrichtigungen nicht öfter als [m] mal."
+
+#: includes/admin/core/class-messaging-admin.php:132
+msgid ""
+"Email notifications about unread message will be send every [n] hours but no "
+"more then [m] times."
+msgstr ""
+"E-Mail-Benachrichtigungen über ungelesene Nachrichten werden alle [n] "
+"Stunden, aber nicht mehr als [m] Mal gesendet."
+
+#: includes/admin/core/class-messaging-admin.php:133
+msgid "[m] times"
+msgstr "[m] Zeiten"
+
+#: includes/admin/templates/role/messaging.php:12
+msgid "Enable Messaging feature?"
+msgstr "Nachrichtenfunktion aktivieren?"
+
+#: includes/admin/templates/role/messaging.php:13
+msgid "Enable or disable messaging feature for this role"
+msgstr "Aktivieren oder Deaktivieren der Nachrichtenfunktion für diese Rolle"
+
+#: includes/admin/templates/role/messaging.php:19
+msgid "Can start conversations?"
+msgstr "Kann ein Gespräch beginnen?"
+
+#: includes/admin/templates/role/messaging.php:20
+msgid "Can this role start conversation with other users?"
+msgstr "Kann diese Rolle ein Gespräch mit anderen Benutzern beginnen?"
+
+#: includes/admin/templates/role/messaging.php:27
+msgid "Can read private messages?"
+msgstr "Darf private Nachrichten lesen?"
+
+#: includes/admin/templates/role/messaging.php:28
+msgid "Can this role read private messages from other users?"
+msgstr "Kann diese Rolle private Nachrichten von anderen Benutzern lesen?"
+
+#: includes/admin/templates/role/messaging.php:35
+msgid "Can reply private messages?"
+msgstr "Können private Nachrichten beantwortet werden?"
+
+#: includes/admin/templates/role/messaging.php:36
+msgid "Turn this off to disable reply ability for this role"
+msgstr ""
+"Deaktivieren Sie dies, um die Antwortfunktion für diese Rolle zu deaktivieren"
+
+#: includes/admin/templates/role/messaging.php:45
+msgid "per"
+msgstr "per"
+
+#: includes/admin/templates/role/messaging.php:45
+msgid "Days"
+msgstr "Tage"
+
+#: includes/admin/templates/role/messaging.php:46
+msgid "Maximum number of messages they can send"
+msgstr "Maximale Anzahl von Nachrichten, die sie senden können"
+
+#: includes/core/class-messaging-account.php:65
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: includes/core/class-messaging-account.php:66
+msgid "Update Notifications"
+msgstr "Updatebenachrichtigungen"
+
+#: includes/core/class-messaging-enqueue.php:29 templates/conversations.php:127
+msgid "No chats found here"
+msgstr "Hier wurden keine Chats gefunden"
+
+#: includes/core/class-messaging-gdpr.php:106
+#: includes/core/class-messaging-gdpr.php:128
+msgid "Download History"
+msgstr "Download-Verlauf"
+
+#: includes/core/class-messaging-gdpr.php:128
+msgid "Download Chats History"
+msgstr "Chats-Verlauf herunterladen"
+
+#: includes/core/class-messaging-gdpr.php:176
+msgid "Me"
+msgstr "Ich"
+
+#: includes/core/class-messaging-main-api.php:562
+msgid "This conversation is hidden."
+msgstr "Diese Unterhaltung ist verborgen."
+
+#: includes/core/class-messaging-main-api.php:619 templates/conversation.php:58
+msgid "Your membership level does not allow you to view conversations."
+msgstr "Ihre Mitgliedsstufe erlaubt es Ihnen nicht, Nachrichten zu sehen."
+
+#: includes/core/class-messaging-main-api.php:748
+#, php-format
+msgid "%ss"
+msgstr "%ss"
+
+#. translators: min=minute
+#: includes/core/class-messaging-main-api.php:754
+#: includes/core/class-messaging-main-api.php:774
+#, php-format
+msgid "%sm"
+msgstr "%sm"
+
+#: includes/core/class-messaging-main-api.php:759
+#, php-format
+msgid "%sh"
+msgstr "%sh"
+
+#: includes/core/class-messaging-main-api.php:764
+#, php-format
+msgid "%sd"
+msgstr "%sd"
+
+#: includes/core/class-messaging-main-api.php:769
+#, php-format
+msgid "%sw"
+msgstr "%sw"
+
+#: includes/core/class-messaging-main-api.php:779
+#, php-format
+msgid "%sy"
+msgstr "%sy"
+
+#: includes/core/class-messaging-main-api.php:1206
+#, php-format
+msgid "%s Please login to message <strong>%s</strong>"
+msgstr ""
+"%s Bitte melden Sie sich an, um eine Nachricht zu senden <strong>%s</strong>"
+
+#: includes/core/class-messaging-main-api.php:1255
+msgid "Invalid target user_ID or user is not logged in"
+msgstr "Ungültige Zielbenutzer-ID oder Benutzer ist nicht angemeldet"
+
+#: includes/core/class-messaging-main-api.php:1276
+#, php-format
+msgid "UM Messaging - invalid query: %s"
+msgstr "UM Messaging - invalid query: %s"
+
+#: includes/core/class-messaging-main-api.php:1280
+msgid "UM Messaging - No result found"
+msgstr "UM Messaging - Kein Ergebnis gefunden"
+
+#: includes/core/class-messaging-main-api.php:1323 templates/message.php:18
+msgid "Remove"
+msgstr "Entfernen"
+
+#: includes/core/class-messaging-main-api.php:1412
+#: templates/conversation.php:16 templates/conversations.php:58
+#: templates/conversations.php:109
+msgid "Deleted User"
+msgstr "Gelöschter Benutzer"
+
+#: includes/core/class-messaging-member-directory.php:49
+msgid "Hide message button in directory?"
+msgstr "Nachrichten-Taste im Verzeichnis verstecken?"
+
+#: includes/core/class-messaging-member-directory.php:90
+msgid "My messages"
+msgstr "Meine Nachrichten"
+
+#: includes/core/class-messaging-profile.php:80
+#: templates/account_notifications.php:14
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: includes/core/class-messaging-setup.php:47
+#: includes/core/filters/um-messaging-settings.php:47
+msgid "User get a new private message"
+msgstr "Benutzer erhält eine neue private Nachricht"
+
+#: includes/core/class-messaging-setup.php:49
+#: includes/core/filters/um-messaging-settings.php:49
+msgid "When someone sends a private message to me"
+msgstr "Wenn jemand eine private Nachricht an mich sendet"
+
+#: includes/core/class-messaging-shortcode.php:109
+msgid "Message"
+msgstr "Nachricht"
+
+#: includes/core/filters/um-messaging-fields.php:39
+msgid "Everyone"
+msgstr "Jeder"
+
+#: includes/core/filters/um-messaging-fields.php:40
+msgid "Nobody"
+msgstr "Niemand"
+
+#: includes/core/filters/um-messaging-fields.php:44
+#: includes/core/filters/um-messaging-fields.php:47
+msgid "Who can send me private messages?"
+msgstr "Wer kann mir private Nachrichten schicken?"
+
+#: includes/core/filters/um-messaging-settings.php:10
+msgid "New Message Notification"
+msgstr "Neue Nachrichtenbenachrichtigung"
+
+#: includes/core/filters/um-messaging-settings.php:17
+msgid "Send a notification to user when he receives a new private message"
+msgstr ""
+"Senden einer Benachrichtigung an den Benutzer, wenn er eine neue private "
+"Nachricht erhäl"
+
+#: includes/core/filters/um-messaging-settings.php:23
+msgid "New Message Reminder"
+msgstr "Neue Nachrichtenerinnerung"
+
+#: includes/core/filters/um-messaging-settings.php:30
+msgid "Send a notification to user when he has unread private message"
+msgstr ""
+"Senden einer Benachrichtigung an den Benutzer, wenn er eine ungelesene "
+"private Nachricht hat"
+
+#: templates/account_notifications.php:21
+msgid "Someone sends me a private message"
+msgstr "Jemand schickt mir eine private Nachricht"
+
+#: templates/account_notifications.php:33
+msgid "I have an unread message"
+msgstr "Ich habe eine ungelesene Nachricht"
+
+#: templates/account_privacy.php:16
+msgid "Blocked Users"
+msgstr "Gesperrte Benutzer"
+
+#: templates/account_privacy.php:33
+msgid "Unblock"
+msgstr "Entsperren"
+
+#: templates/conversation.php:31
+msgid "Are you sure to block this user?"
+msgstr "Sind Sie sicher, dass Sie diesen Benutzer sperren wollen?"
+
+#: templates/conversation.php:31
+msgid "Block user"
+msgstr "Benutzer sperren"
+
+#: templates/conversation.php:33
+msgid "Delete conversation"
+msgstr "Unterhaltung löschen"
+
+#: templates/conversation.php:42
+msgid "Close chat"
+msgstr "Schließen Sie den Chat"
+
+#: templates/conversation.php:81
+msgid "You are blocked and not allowed continue this conversation."
+msgstr "Sie sind blockiert und dürfen diese Unterhaltung nicht fortsetzen."
+
+#: templates/conversation.php:85 templates/conversation.php:89
+msgid "You have reached your limit for sending messages."
+msgstr "Sie haben Ihr Limit für das Senden von Nachrichten erreicht."
+
+#: templates/conversation.php:92
+msgid "You are not allowed to reply to private messages."
+msgstr "Sie dürfen nicht auf private Nachrichten antworten."
+
+#: templates/conversation.php:95
+msgid "You are not allowed to start conversations."
+msgstr "Sie dürfen keine Unterhaltungen beginnen."
+
+#: templates/conversation.php:103
+msgid "Type your message..."
+msgstr "Geben Sie Ihre Nachricht ein....."
+
+#: templates/conversation.php:111
+msgid "Send message"
+msgstr "Nachricht senden"
+
+#: um-messaging.php:43 um-messaging.php:59
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"Das <strong>%s</strong> Erweiterung erfordert, dass das Ultimate Member "
+"Plugin aktiviert ist, damit es ordnungsgemäß funktioniert. Sie können es "
+"hier herunterladen <a href=\"https://wordpress.org/plugins/ultimate-member"
+"\"></a>"
+
+#. Plugin Name of the plugin/theme
+msgid "Ultimate Member - Private Messages"
+msgstr "Ultimate Member - Private Messages"
+
+#. Plugin URI of the plugin/theme
+msgid "http://ultimatemember.com/extensions/private-messages"
+msgstr "http://ultimatemember.com/extensions/private-messages"
+
+#. Description of the plugin/theme
+msgid "Allow users to send private messages to each other on your site."
+msgstr ""
+"Ermöglichen Sie es Benutzern, sich gegenseitig private Nachrichten auf Ihrer "
+"Website zu senden."
+
+#. Author of the plugin/theme
+msgid "Ultimate Member"
+msgstr "Ultimate Member"
+
+#. Author URI of the plugin/theme
+msgid "http://ultimatemember.com/"
+msgstr "http://ultimatemember.com/"
+
